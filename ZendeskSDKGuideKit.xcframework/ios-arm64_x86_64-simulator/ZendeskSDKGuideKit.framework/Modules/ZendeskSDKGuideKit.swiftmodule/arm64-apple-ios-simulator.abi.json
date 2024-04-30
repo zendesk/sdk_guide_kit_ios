@@ -1543,6 +1543,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ZendeskSDKGuideKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "ZendeskSDKStorage",
         "printedName": "ZendeskSDKStorage",
         "declKind": "Import",
@@ -3403,13 +3413,6 @@
       "value": "4"
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
-      "kind": "StringLiteral",
-      "offset": 2299,
-      "length": 3,
-      "value": "\"-\""
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
       "kind": "StringLiteral",
       "offset": 4196,
@@ -3938,7 +3941,7 @@
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
       "kind": "StringLiteral",
       "offset": 1096,
-      "length": 51,
+      "length": 55,
       "value": "\"^\""
     },
     {
@@ -3946,40 +3949,40 @@
       "kind": "StringLiteral",
       "offset": 1108,
       "length": 1,
-      "value": "\"\/hc\/([a-z-]+)\/articles\/(\\d+)-([^\/]+)$\""
+      "value": "\"\/hc\/([a-z-]+)\/articles\/(\\d+)(?:[\/-]?.*)?$\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1233,
+      "offset": 1237,
       "length": 12,
       "value": "\"mobile_sdk\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1604,
+      "offset": 1608,
       "length": 12,
       "value": "\"SDKVersion\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1665,
+      "offset": 1669,
       "length": 48,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1677,
+      "offset": 1681,
       "length": 7,
       "value": "\" version number is not set in plist\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1738,
       "length": 15,
       "value": "\"1.0.0-default\""
     }
