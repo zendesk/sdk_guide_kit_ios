@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "ZendeskSDKGuideKit"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "ZendeskSDKGuideKit #{s.version.to_s}"
   s.homepage     = "https://developer.zendesk.com/documentation/zendesk-web-widget-sdks/sdks/ios/getting_started/"
   s.license      = {
@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.10.0'
   s.source       = { :git => "https://github.com/zendesk/sdk_guide_kit_ios.git", :tag => s.version }
   s.vendored_frameworks = 'ZendeskSDKGuideKit.xcframework'
-  s.dependency 'ZendeskSDKLogger', '~> 0.9.2'
-  s.dependency 'ZendeskSDKHTTPClient', '~> 0.15.2'
-  s.dependency 'ZendeskSDKStorage', '~> 1.0.2'
-  s.dependency 'ZendeskSDKCoreUtilities', '~> 2.2.2'
+  s.dependency 'ZendeskSDKLogger', '~> 0.9.3'
+  s.dependency 'ZendeskSDKHTTPClient', '~> 0.15.3'
+  s.dependency 'ZendeskSDKStorage', '~> 1.0.3'
+  s.dependency 'ZendeskSDKCoreUtilities', '~> 2.2.3'
 end
