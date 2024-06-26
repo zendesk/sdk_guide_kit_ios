@@ -694,7 +694,7 @@
           {
             "kind": "Function",
             "name": "build",
-            "printedName": "build(with:)",
+            "printedName": "build(with:and:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -707,11 +707,17 @@
                 "name": "GuideKitSettings",
                 "printedName": "ZendeskSDKGuideKit.GuideKitSettings",
                 "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC7BuilderP5build4withAA0dC0_pAA0dC8SettingsC_tF",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC7BuilderP5build4withAA0dC0_pAA0dC8SettingsC_tF",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC7BuilderP5build4with3andAA0dC0_pAA0dC8SettingsC_SStF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC7BuilderP5build4with3andAA0dC0_pAA0dC8SettingsC_SStF",
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKitBuilder>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKitBuilder>",
@@ -762,7 +768,7 @@
           {
             "kind": "Function",
             "name": "build",
-            "printedName": "build(with:)",
+            "printedName": "build(with:and:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -775,11 +781,17 @@
                 "name": "GuideKitSettings",
                 "printedName": "ZendeskSDKGuideKit.GuideKitSettings",
                 "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit012DefaultGuideC7BuilderC5build4withAA0eC0_pAA0eC8SettingsC_tF",
-            "mangledName": "$s18ZendeskSDKGuideKit012DefaultGuideC7BuilderC5build4withAA0eC0_pAA0eC8SettingsC_tF",
+            "usr": "s:18ZendeskSDKGuideKit012DefaultGuideC7BuilderC5build4with3andAA0eC0_pAA0eC8SettingsC_SStF",
+            "mangledName": "$s18ZendeskSDKGuideKit012DefaultGuideC7BuilderC5build4with3andAA0eC0_pAA0eC8SettingsC_SStF",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final"
@@ -3401,14 +3413,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
       "kind": "IntegerLiteral",
-      "offset": 2207,
+      "offset": 2258,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
       "kind": "IntegerLiteral",
-      "offset": 2271,
+      "offset": 2322,
       "length": 1,
       "value": "4"
     },
@@ -3744,9 +3756,16 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Local\/GuideStorage.swift",
       "kind": "StringLiteral",
-      "offset": 776,
-      "length": 22,
-      "value": "\"com.zendesk.GuideKit\""
+      "offset": 1142,
+      "length": 39,
+      "value": "\"com.zendesk.GuideKit_\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Local\/GuideStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 1180,
+      "length": 1,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/GuideArticleUrl.swift",
