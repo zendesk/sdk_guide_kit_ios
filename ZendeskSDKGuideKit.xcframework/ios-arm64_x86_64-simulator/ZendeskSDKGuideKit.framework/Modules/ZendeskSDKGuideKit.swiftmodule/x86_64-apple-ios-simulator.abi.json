@@ -70,9 +70,59 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "channelId",
+            "printedName": "channelId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(py)channelId",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC9channelIdSSvp",
+            "moduleName": "ZendeskSDKGuideKit",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(im)channelId",
+                "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC9channelIdSSvg",
+                "moduleName": "ZendeskSDKGuideKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(baseURL:)",
+            "printedName": "init(baseURL:channelId:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -85,13 +135,19 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(im)initWithBaseURL:",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC7baseURLACSS_tcfc",
+            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(im)initWithBaseURL:channelId:",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC7baseURL9channelIdACSS_SStcfc",
             "moduleName": "ZendeskSDKGuideKit",
-            "objc_name": "initWithBaseURL:",
+            "objc_name": "initWithBaseURL:channelId:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -209,7 +265,7 @@
           {
             "kind": "Function",
             "name": "getArticle",
-            "printedName": "getArticle(for:guideLocale:result:)",
+            "printedName": "getArticle(for:result:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -218,15 +274,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GuideLocale",
-                "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "name": "GuideArticleUrl",
+                "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
+                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
               },
               {
                 "kind": "TypeFunc",
@@ -262,8 +312,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC0P10getArticle3for11guideLocale6resultySS_AA0dI0Cys6ResultOyAA0dF0CAA0dC5ErrorOGctF",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P10getArticle3for11guideLocale6resultySS_AA0dI0Cys6ResultOyAA0dF0CAA0dC5ErrorOGctF",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC0P10getArticle3for6resultyAA0dF3UrlC_ys6ResultOyAA0dF0CAA0dC5ErrorOGctF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P10getArticle3for6resultyAA0dF3UrlC_ys6ResultOyAA0dF0CAA0dC5ErrorOGctF",
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
@@ -277,7 +327,7 @@
           {
             "kind": "Function",
             "name": "sendArticleStatsView",
-            "printedName": "sendArticleStatsView(for:guideLocale:result:)",
+            "printedName": "sendArticleStatsView(for:result:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -286,15 +336,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GuideLocale",
-                "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "name": "GuideArticleUrl",
+                "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
+                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
               },
               {
                 "kind": "TypeNominal",
@@ -337,8 +381,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC0P20sendArticleStatsView3for11guideLocale6resultySS_AA0dK0Cys6ResultOyytAA0dC5ErrorOGcSgtF",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P20sendArticleStatsView3for11guideLocale6resultySS_AA0dK0Cys6ResultOyytAA0dC5ErrorOGcSgtF",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC0P20sendArticleStatsView3for6resultyAA0dF3UrlC_ys6ResultOyytAA0dC5ErrorOGcSgtF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P20sendArticleStatsView3for6resultyAA0dF3UrlC_ys6ResultOyytAA0dC5ErrorOGcSgtF",
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
@@ -352,7 +396,7 @@
           {
             "kind": "Function",
             "name": "getArticle",
-            "printedName": "getArticle(for:guideLocale:)",
+            "printedName": "getArticle(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -362,20 +406,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GuideLocale",
-                "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "name": "GuideArticleUrl",
+                "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
+                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC0P10getArticle3for11guideLocaleAA0dF0CSS_AA0dI0CtYaKF",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P10getArticle3for11guideLocaleAA0dF0CSS_AA0dI0CtYaKF",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC0P10getArticle3forAA0dF0CAA0dF3UrlC_tYaKF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P10getArticle3forAA0dF0CAA0dF3UrlC_tYaKF",
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
@@ -391,8 +429,8 @@
           },
           {
             "kind": "Function",
-            "name": "getGuideArticleLink",
-            "printedName": "getGuideArticleLink(for:)",
+            "name": "getGuideArticleUrl",
+            "printedName": "getGuideArticleUrl(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -422,8 +460,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC0P03getD11ArticleLink3fors6ResultOyAA0dF3UrlCAA0dC5ErrorOGSS_tF",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P03getD11ArticleLink3fors6ResultOyAA0dF3UrlCAA0dC5ErrorOGSS_tF",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC0P03getD10ArticleUrl3fors6ResultOyAA0dfG0CAA0dC5ErrorOGSS_tF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P03getD10ArticleUrl3fors6ResultOyAA0dfG0CAA0dC5ErrorOGSS_tF",
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
@@ -437,7 +475,7 @@
           {
             "kind": "Function",
             "name": "sendArticleStatsView",
-            "printedName": "sendArticleStatsView(for:guideLocale:)",
+            "printedName": "sendArticleStatsView(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -446,20 +484,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GuideLocale",
-                "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "name": "GuideArticleUrl",
+                "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
+                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC0P20sendArticleStatsView3for11guideLocaleySS_AA0dK0CtYaKF",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P20sendArticleStatsView3for11guideLocaleySS_AA0dK0CtYaKF",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC0P20sendArticleStatsView3foryAA0dF3UrlC_tYaKF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P20sendArticleStatsView3foryAA0dF3UrlC_tYaKF",
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
@@ -476,7 +508,7 @@
           {
             "kind": "Function",
             "name": "getArticle",
-            "printedName": "getArticle(for:guideLocale:)",
+            "printedName": "getArticle(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -486,20 +518,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GuideLocale",
-                "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "name": "GuideArticleUrl",
+                "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
+                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC0PAAE10getArticle3for11guideLocaleAA0dF0CSS_AA0dI0CtYaKF",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0PAAE10getArticle3for11guideLocaleAA0dF0CSS_AA0dI0CtYaKF",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC0PAAE10getArticle3forAA0dF0CAA0dF3UrlC_tYaKF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0PAAE10getArticle3forAA0dF0CAA0dF3UrlC_tYaKF",
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
@@ -514,7 +540,7 @@
           {
             "kind": "Function",
             "name": "sendArticleStatsView",
-            "printedName": "sendArticleStatsView(for:guideLocale:)",
+            "printedName": "sendArticleStatsView(for:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -523,20 +549,14 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "GuideLocale",
-                "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "name": "GuideArticleUrl",
+                "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
+                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
               }
             ],
             "declKind": "Func",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC0PAAE20sendArticleStatsView3for11guideLocaleySS_AA0dK0CtYaKF",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0PAAE20sendArticleStatsView3for11guideLocaleySS_AA0dK0CtYaKF",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC0PAAE20sendArticleStatsView3foryAA0dF3UrlC_tYaKF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0PAAE20sendArticleStatsView3foryAA0dF3UrlC_tYaKF",
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
@@ -1643,14 +1663,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "UInt64",
-                "printedName": "Swift.UInt64",
-                "usr": "s:s6UInt64V"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(py)articleId",
-            "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC9articleIds6UInt64Vvp",
+            "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC9articleIdSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
@@ -1669,14 +1689,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UInt64",
-                    "printedName": "Swift.UInt64",
-                    "usr": "s:s6UInt64V"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(im)articleId",
-                "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC9articleIds6UInt64Vvg",
+                "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC9articleIdSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
@@ -3413,86 +3433,23 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
       "kind": "IntegerLiteral",
-      "offset": 2258,
+      "offset": 2444,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
       "kind": "IntegerLiteral",
-      "offset": 2322,
+      "offset": 2508,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4196,
-      "length": 11,
-      "value": "\"author_id\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4240,
-      "length": 19,
-      "value": "\"comments_disabled\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4285,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4321,
-      "length": 10,
-      "value": "\"html_url\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4358,
-      "length": 13,
-      "value": "\"label_names\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4397,
-      "length": 12,
-      "value": "\"section_id\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4438,
-      "length": 15,
-      "value": "\"source_locale\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4479,
-      "length": 12,
-      "value": "\"updated_at\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4517,
-      "length": 12,
-      "value": "\"vote_count\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4553,
-      "length": 10,
-      "value": "\"vote_sum\""
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3068,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
@@ -3565,156 +3522,261 @@
       "value": "\"vote_sum\""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
       "kind": "StringLiteral",
-      "offset": 1834,
-      "length": 2,
-      "value": "\"\""
+      "offset": 4196,
+      "length": 11,
+      "value": "\"author_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4240,
+      "length": 19,
+      "value": "\"comments_disabled\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4285,
+      "length": 12,
+      "value": "\"created_at\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4321,
+      "length": 10,
+      "value": "\"html_url\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4358,
+      "length": 13,
+      "value": "\"label_names\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4397,
+      "length": 12,
+      "value": "\"section_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4438,
+      "length": 15,
+      "value": "\"source_locale\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4479,
+      "length": 12,
+      "value": "\"updated_at\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4517,
+      "length": 12,
+      "value": "\"vote_count\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 4553,
+      "length": 10,
+      "value": "\"vote_sum\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/BrandDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 14,
+      "value": "\"host_mapping\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/BrandDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 12,
+      "value": "\"channel_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/BrandDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 14,
+      "value": "\"host_mapping\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/BrandDTO.swift",
+      "kind": "StringLiteral",
+      "offset": 776,
+      "length": 12,
+      "value": "\"channel_id\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "Array",
-      "offset": 1975,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 2015,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 2824,
+      "offset": 3126,
       "length": 70,
       "value": "\"\/api\/v2\/help_center\/\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 2866,
+      "offset": 3168,
       "length": 1,
       "value": "\"\/articles\/\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 2888,
+      "offset": 3190,
       "length": 1,
       "value": "\".json\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 3596,
+      "offset": 4077,
       "length": 88,
       "value": "\"\/api\/v2\/help_center\/\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 3638,
+      "offset": 4119,
       "length": 1,
       "value": "\"\/articles\/\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 3660,
+      "offset": 4141,
       "length": 1,
       "value": "\"\/attachments\/block.json\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "Dictionary",
-      "offset": 3705,
+      "offset": 4186,
       "length": 19,
       "value": "[(\"per_page\", \"100\")]"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 4373,
+      "offset": 5033,
       "length": 81,
       "value": "\"\/api\/v2\/help_center\/\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 4415,
+      "offset": 5075,
       "length": 1,
       "value": "\"\/articles\/\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 4437,
+      "offset": 5097,
       "length": 1,
       "value": "\"\/stats\/view.json\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 4476,
+      "offset": 5136,
       "length": 8,
       "value": "\"origin\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 4893,
-      "length": 61,
-      "value": "\"GuideKit-SDK\/\""
+      "offset": 5940,
+      "length": 25,
+      "value": "\"\/embeddable\/brands.json\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 4920,
+      "offset": 5987,
+      "length": 12,
+      "value": "\"channel_id\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6717,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
+      "kind": "Array",
+      "offset": 6849,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6972,
+      "length": 61,
+      "value": "\"Zendesk-SDK\/\""
+    },
+    {
+      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
+      "kind": "StringLiteral",
+      "offset": 6998,
       "length": 3,
       "value": "\" iOS\/\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 4937,
+      "offset": 7015,
       "length": 7,
-      "value": "\" Variant\/Zendesk\""
+      "value": "\" Variant\/GuideKit\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 4982,
+      "offset": 7061,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 5029,
+      "offset": 7108,
       "length": 18,
       "value": "\"X-Zendesk-Client\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 5056,
+      "offset": 7135,
       "length": 26,
       "value": "\"mobile\/ios\/sdk\/messaging\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 5111,
+      "offset": 7190,
       "length": 26,
       "value": "\"X-Zendesk-Client-Version\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
       "kind": "StringLiteral",
-      "offset": 5185,
+      "offset": 7264,
       "length": 17,
       "value": "\"Accept-Language\""
     },
@@ -3770,7 +3832,7 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/GuideArticleUrl.swift",
       "kind": "BooleanLiteral",
-      "offset": 1238,
+      "offset": 1309,
       "length": 5,
       "value": "false"
     },

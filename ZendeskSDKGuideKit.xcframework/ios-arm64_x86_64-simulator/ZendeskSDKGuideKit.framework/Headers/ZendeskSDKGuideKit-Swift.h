@@ -358,7 +358,7 @@ SWIFT_CLASS_NAMED("GuideArticleUrl")
 /// The full URL of the guide article.
 @property (nonatomic, readonly, copy) NSString * _Nonnull url;
 /// The identifier of the guide article.
-@property (nonatomic, readonly) uint64_t articleId;
+@property (nonatomic, readonly, copy) NSString * _Nonnull articleId;
 /// The locale of the guide page.
 @property (nonatomic, readonly, strong) ZDKGuideLocale * _Nonnull locale;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
@@ -376,7 +376,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, ZDKGuideArticleVote, "GuideArticleVote", ope
 SWIFT_CLASS_NAMED("GuideKitSettings")
 @interface ZDKGuideKitSettings : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull baseURL;
-- (nonnull instancetype)initWithBaseURL:(NSString * _Nonnull)baseURL OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSString * _Nonnull channelId;
+- (nonnull instancetype)initWithBaseURL:(NSString * _Nonnull)baseURL channelId:(NSString * _Nonnull)channelId OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -770,7 +771,7 @@ SWIFT_CLASS_NAMED("GuideArticleUrl")
 /// The full URL of the guide article.
 @property (nonatomic, readonly, copy) NSString * _Nonnull url;
 /// The identifier of the guide article.
-@property (nonatomic, readonly) uint64_t articleId;
+@property (nonatomic, readonly, copy) NSString * _Nonnull articleId;
 /// The locale of the guide page.
 @property (nonatomic, readonly, strong) ZDKGuideLocale * _Nonnull locale;
 - (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
@@ -788,7 +789,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, ZDKGuideArticleVote, "GuideArticleVote", ope
 SWIFT_CLASS_NAMED("GuideKitSettings")
 @interface ZDKGuideKitSettings : NSObject
 @property (nonatomic, readonly, copy) NSString * _Nonnull baseURL;
-- (nonnull instancetype)initWithBaseURL:(NSString * _Nonnull)baseURL OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly, copy) NSString * _Nonnull channelId;
+- (nonnull instancetype)initWithBaseURL:(NSString * _Nonnull)baseURL channelId:(NSString * _Nonnull)channelId OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
