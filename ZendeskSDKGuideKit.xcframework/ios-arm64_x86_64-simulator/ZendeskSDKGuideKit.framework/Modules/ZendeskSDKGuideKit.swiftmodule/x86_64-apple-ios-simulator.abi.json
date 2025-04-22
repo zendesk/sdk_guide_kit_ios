@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ZendeskSDKGuideKit",
+    "printedName": "ZendeskSDKGuideKit",
     "children": [
       {
         "kind": "Import",
@@ -196,6 +196,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -582,6 +596,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "GuideKitShared",
             "printedName": "GuideKitShared",
             "usr": "c:@M@ZendeskSDKGuideKit@objc(pl)GuideKitShared",
@@ -637,6 +665,22 @@
           "AccessControl",
           "ObjC",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -719,7 +763,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "GuideKit",
-                "printedName": "ZendeskSDKGuideKit.GuideKit",
+                "printedName": "any ZendeskSDKGuideKit.GuideKit",
                 "usr": "s:18ZendeskSDKGuideKit05GuideC0P"
               },
               {
@@ -752,6 +796,22 @@
         "moduleName": "ZendeskSDKGuideKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -793,7 +853,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "GuideKit",
-                "printedName": "ZendeskSDKGuideKit.GuideKit",
+                "printedName": "any ZendeskSDKGuideKit.GuideKit",
                 "usr": "s:18ZendeskSDKGuideKit05GuideC0P"
               },
               {
@@ -842,6 +902,20 @@
             "printedName": "GuideKitBuilder",
             "usr": "s:18ZendeskSDKGuideKit05GuideC7BuilderP",
             "mangledName": "$s18ZendeskSDKGuideKit05GuideC7BuilderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1504,6 +1578,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1842,6 +1930,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2145,6 +2247,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -2320,6 +2436,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2798,6 +2928,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3170,6 +3314,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -3284,13 +3442,6 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/GuideKitSettings.swift",
-      "kind": "StringLiteral",
-      "offset": 636,
-      "length": 16,
-      "value": "\"ZendeskSDKGuideKit.GuideKitSettings\""
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentDTO.swift",
       "kind": "StringLiteral",
       "offset": 1723,
@@ -3340,186 +3491,11 @@
       "value": "\"updated_at\""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 1723,
-      "length": 12,
-      "value": "\"article_id\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 1767,
-      "length": 19,
-      "value": "\"display_file_name\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 1811,
-      "length": 11,
-      "value": "\"file_name\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 1849,
-      "length": 13,
-      "value": "\"content_url\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 1891,
-      "length": 15,
-      "value": "\"relative_path\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 1970,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 2008,
-      "length": 12,
-      "value": "\"updated_at\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/HTTPError+Unauthorized.swift",
-      "kind": "IntegerLiteral",
-      "offset": 785,
-      "length": 3,
-      "value": "401"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/HTTPError+Unauthorized.swift",
-      "kind": "BooleanLiteral",
-      "offset": 810,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/HTTPError+Unauthorized.swift",
-      "kind": "BooleanLiteral",
-      "offset": 840,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentResponseDTO.swift",
       "kind": "StringLiteral",
       "offset": 853,
       "length": 21,
       "value": "\"article_attachments\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleAttachmentResponseDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 853,
-      "length": 21,
-      "value": "\"article_attachments\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
-      "kind": "StringLiteral",
-      "offset": 627,
-      "length": 15,
-      "value": "\"ZendeskSDKGuideKit.DefaultGuideKit\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2444,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2508,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/DefaultGuideKit.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3068,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4196,
-      "length": 11,
-      "value": "\"author_id\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4240,
-      "length": 19,
-      "value": "\"comments_disabled\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4285,
-      "length": 12,
-      "value": "\"created_at\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4321,
-      "length": 10,
-      "value": "\"html_url\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4358,
-      "length": 13,
-      "value": "\"label_names\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4397,
-      "length": 12,
-      "value": "\"section_id\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4438,
-      "length": 15,
-      "value": "\"source_locale\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4479,
-      "length": 12,
-      "value": "\"updated_at\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4517,
-      "length": 12,
-      "value": "\"vote_count\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 4553,
-      "length": 10,
-      "value": "\"vote_sum\""
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/ArticleDTO.swift",
@@ -3606,251 +3582,6 @@
       "value": "\"channel_id\""
     },
     {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/BrandDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 736,
-      "length": 14,
-      "value": "\"host_mapping\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/BrandDTO.swift",
-      "kind": "StringLiteral",
-      "offset": 776,
-      "length": 12,
-      "value": "\"channel_id\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3126,
-      "length": 70,
-      "value": "\"\/api\/v2\/help_center\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3168,
-      "length": 1,
-      "value": "\"\/articles\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 3190,
-      "length": 1,
-      "value": "\".json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 4077,
-      "length": 88,
-      "value": "\"\/api\/v2\/help_center\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 4119,
-      "length": 1,
-      "value": "\"\/articles\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 4141,
-      "length": 1,
-      "value": "\"\/attachments\/block.json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "Dictionary",
-      "offset": 4186,
-      "length": 19,
-      "value": "[(\"per_page\", \"100\")]"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 5033,
-      "length": 81,
-      "value": "\"\/api\/v2\/help_center\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 5075,
-      "length": 1,
-      "value": "\"\/articles\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 5097,
-      "length": 1,
-      "value": "\"\/stats\/view.json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 5136,
-      "length": 8,
-      "value": "\"origin\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 5940,
-      "length": 25,
-      "value": "\"\/embeddable\/brands.json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 5987,
-      "length": 12,
-      "value": "\"channel_id\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6717,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "Array",
-      "offset": 6849,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6972,
-      "length": 61,
-      "value": "\"Zendesk-SDK\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 6998,
-      "length": 3,
-      "value": "\" iOS\/\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7015,
-      "length": 7,
-      "value": "\" Variant\/GuideKit\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7061,
-      "length": 18,
-      "value": "\"application\/json\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7108,
-      "length": 18,
-      "value": "\"X-Zendesk-Client\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7135,
-      "length": 26,
-      "value": "\"mobile\/ios\/sdk\/messaging\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7190,
-      "length": 26,
-      "value": "\"X-Zendesk-Client-Version\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/GuideRESTClient.swift",
-      "kind": "StringLiteral",
-      "offset": 7264,
-      "length": 17,
-      "value": "\"Accept-Language\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticle.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1783,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticle.swift",
-      "kind": "StringLiteral",
-      "offset": 628,
-      "length": 12,
-      "value": "\"ZendeskSDKGuideKit.GuideArticle\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/String+Regex.swift",
-      "kind": "BooleanLiteral",
-      "offset": 730,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/String+Regex.swift",
-      "kind": "IntegerLiteral",
-      "offset": 776,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/String+Regex.swift",
-      "kind": "Array",
-      "offset": 856,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Local\/GuideStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1142,
-      "length": 39,
-      "value": "\"com.zendesk.GuideKit_\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Local\/GuideStorage.swift",
-      "kind": "StringLiteral",
-      "offset": 1180,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/GuideArticleUrl.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1309,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/GuideArticleUrl.swift",
-      "kind": "StringLiteral",
-      "offset": 634,
-      "length": 15,
-      "value": "\"ZendeskSDKGuideKit.GuideArticleUrl\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Models\/GuideObjectMapper.swift",
-      "kind": "Array",
-      "offset": 1196,
-      "length": 2,
-      "value": "[]"
-    },
-    {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticleVote.swift",
       "kind": "IntegerLiteral",
       "offset": 699,
@@ -3863,118 +3594,6 @@
       "offset": 718,
       "length": 8,
       "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticleVote.swift",
-      "kind": "IntegerLiteral",
-      "offset": 699,
-      "length": 9,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticleVote.swift",
-      "kind": "IntegerLiteral",
-      "offset": 718,
-      "length": 8,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/GuideLocale.swift",
-      "kind": "BooleanLiteral",
-      "offset": 902,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/GuideLocale.swift",
-      "kind": "StringLiteral",
-      "offset": 625,
-      "length": 11,
-      "value": "\"ZendeskSDKGuideKit.GuideLocale\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticleAttachment.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1609,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticleAttachment.swift",
-      "kind": "StringLiteral",
-      "offset": 648,
-      "length": 22,
-      "value": "\"ZendeskSDKGuideKit.GuideArticleAttachment\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/Int+Bytes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 633,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/Int+Bytes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 676,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Utility\/Extensions\/Int+Bytes.swift",
-      "kind": "IntegerLiteral",
-      "offset": 719,
-      "length": 4,
-      "value": "1024"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Environment\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1409,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Environment\/Device.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1811,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Environment\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1834,
-      "length": 12,
-      "value": "\"hw.machine\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Environment\/Device.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1865,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Environment\/Device.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1909,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Environment\/Device.swift",
-      "kind": "StringLiteral",
-      "offset": 1946,
-      "length": 12,
-      "value": "\"hw.machine\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Environment\/Device.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1982,
-      "length": 1,
-      "value": "0"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Repository\/Remote\/CacheBuilder.swift",
@@ -4021,51 +3640,9 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
       "kind": "StringLiteral",
-      "offset": 1096,
-      "length": 55,
-      "value": "\"^\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1108,
-      "length": 1,
-      "value": "\"\/hc\/([a-z-]+)\/articles\/(\\d+)(?:[\/-]?.*)?$\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
-      "kind": "StringLiteral",
       "offset": 1237,
       "length": 12,
       "value": "\"mobile_sdk\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1608,
-      "length": 12,
-      "value": "\"SDKVersion\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1669,
-      "length": 48,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1681,
-      "length": 7,
-      "value": "\" version number is not set in plist\""
-    },
-    {
-      "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Internal\/Constants.swift",
-      "kind": "StringLiteral",
-      "offset": 1738,
-      "length": 15,
-      "value": "\"1.0.0-default\""
     }
   ]
 }
