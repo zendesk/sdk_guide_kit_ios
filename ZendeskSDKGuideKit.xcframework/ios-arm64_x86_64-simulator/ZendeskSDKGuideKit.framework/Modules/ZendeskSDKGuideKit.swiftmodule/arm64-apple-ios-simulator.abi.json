@@ -32,14 +32,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(py)baseURL",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC7baseURLSSvp",
             "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC7baseURLSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -57,13 +56,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(im)baseURL",
+                "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC7baseURLSSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC7baseURLSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -82,14 +80,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(py)channelId",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC9channelIdSSvp",
             "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC9channelIdSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -107,13 +104,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(im)channelId",
+                "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC9channelIdSSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC9channelIdSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -128,7 +124,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideKitSettings",
                 "printedName": "ZendeskSDKGuideKit.GuideKitSettings",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings"
+                "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC"
               },
               {
                 "kind": "TypeNominal",
@@ -144,56 +140,22 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(im)initWithBaseURL:channelId:",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC7baseURL9channelIdACSS_SStcfc",
             "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC7baseURL9channelIdACSS_SStcfc",
             "moduleName": "ZendeskSDKGuideKit",
-            "objc_name": "initWithBaseURL:channelId:",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "GuideKitSettings",
-                "printedName": "ZendeskSDKGuideKit.GuideKitSettings",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings(im)init",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsCACycfc",
-            "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
-            "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings",
+        "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC",
         "mangledName": "$s18ZendeskSDKGuideKit05GuideC8SettingsC",
         "moduleName": "ZendeskSDKGuideKit",
-        "objc_name": "ZDKGuideKitSettings",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -209,55 +171,6 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -278,6 +191,37 @@
         "children": [
           {
             "kind": "Function",
+            "name": "isValidGuideUrl",
+            "printedName": "isValidGuideUrl(url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC0P07isValidD3Url3urlSbSS_tF",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P07isValidD3Url3urlSbSS_tF",
+            "moduleName": "ZendeskSDKGuideKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
+            "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "getArticle",
             "printedName": "getArticle(for:result:)",
             "children": [
@@ -290,7 +234,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideArticleUrl",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
               },
               {
                 "kind": "TypeFunc",
@@ -311,7 +255,7 @@
                         "kind": "TypeNominal",
                         "name": "GuideArticle",
                         "printedName": "ZendeskSDKGuideKit.GuideArticle",
-                        "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle"
+                        "usr": "s:18ZendeskSDKGuideKit12GuideArticleC"
                       },
                       {
                         "kind": "TypeNominal",
@@ -352,7 +296,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideArticleUrl",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
               },
               {
                 "kind": "TypeNominal",
@@ -416,13 +360,13 @@
                 "kind": "TypeNominal",
                 "name": "GuideArticle",
                 "printedName": "ZendeskSDKGuideKit.GuideArticle",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle"
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC"
               },
               {
                 "kind": "TypeNominal",
                 "name": "GuideArticleUrl",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
               }
             ],
             "declKind": "Func",
@@ -455,7 +399,7 @@
                     "kind": "TypeNominal",
                     "name": "GuideArticleUrl",
                     "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
-                    "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
+                    "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
                   },
                   {
                     "kind": "TypeNominal",
@@ -500,7 +444,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideArticleUrl",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
               }
             ],
             "declKind": "Func",
@@ -528,13 +472,13 @@
                 "kind": "TypeNominal",
                 "name": "GuideArticle",
                 "printedName": "ZendeskSDKGuideKit.GuideArticle",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle"
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC"
               },
               {
                 "kind": "TypeNominal",
                 "name": "GuideArticleUrl",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
               }
             ],
             "declKind": "Func",
@@ -565,7 +509,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideArticleUrl",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
               }
             ],
             "declKind": "Func",
@@ -587,83 +531,8 @@
         "usr": "s:18ZendeskSDKGuideKit05GuideC0P",
         "mangledName": "$s18ZendeskSDKGuideKit05GuideC0P",
         "moduleName": "ZendeskSDKGuideKit",
-        "genericSig": "<τ_0_0 : ZendeskSDKGuideKit.GuideKitShared>",
-        "sugared_genericSig": "<Self : ZendeskSDKGuideKit.GuideKitShared>",
         "declAttributes": [
           "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "GuideKitShared",
-            "printedName": "GuideKitShared",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(pl)GuideKitShared",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC6SharedP"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "GuideKitShared",
-        "printedName": "GuideKitShared",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "isValidGuideUrl",
-            "printedName": "isValidGuideUrl(url:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(pl)GuideKitShared(im)isValidGuideUrlWithUrl:",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC6SharedP07isValidD3Url3urlSbSS_tF",
-            "moduleName": "ZendeskSDKGuideKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKitShared>",
-            "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKitShared>",
-            "protocolReq": true,
-            "declAttributes": [
-              "RawDocComment",
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Protocol",
-        "usr": "c:@M@ZendeskSDKGuideKit@objc(pl)GuideKitShared",
-        "mangledName": "$s18ZendeskSDKGuideKit05GuideC6SharedP",
-        "moduleName": "ZendeskSDKGuideKit",
-        "genericSig": "<τ_0_0 : AnyObject>",
-        "sugared_genericSig": "<Self : AnyObject>",
-        "declAttributes": [
-          "AccessControl",
-          "ObjC",
           "RawDocComment"
         ],
         "conformances": [
@@ -770,7 +639,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideKitSettings",
                 "printedName": "ZendeskSDKGuideKit.GuideKitSettings",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings"
+                "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC"
               },
               {
                 "kind": "TypeNominal",
@@ -828,20 +697,15 @@
                 "kind": "TypeNominal",
                 "name": "DefaultGuideKitBuilder",
                 "printedName": "ZendeskSDKGuideKit.DefaultGuideKitBuilder",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKDefaultGuideKitBuilder"
+                "usr": "s:18ZendeskSDKGuideKit012DefaultGuideC7BuilderC"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKDefaultGuideKitBuilder(im)init",
+            "usr": "s:18ZendeskSDKGuideKit012DefaultGuideC7BuilderCACycfc",
             "mangledName": "$s18ZendeskSDKGuideKit012DefaultGuideC7BuilderCACycfc",
             "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
@@ -860,7 +724,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideKitSettings",
                 "printedName": "ZendeskSDKGuideKit.GuideKitSettings",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideKitSettings"
+                "usr": "s:18ZendeskSDKGuideKit05GuideC8SettingsC"
               },
               {
                 "kind": "TypeNominal",
@@ -881,28 +745,14 @@
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKDefaultGuideKitBuilder",
+        "usr": "s:18ZendeskSDKGuideKit012DefaultGuideC7BuilderC",
         "mangledName": "$s18ZendeskSDKGuideKit012DefaultGuideC7BuilderC",
         "moduleName": "ZendeskSDKGuideKit",
-        "objc_name": "ZDKDefaultGuideKitBuilder",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "inheritsConvenienceInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "AccessControl"
         ],
         "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "GuideKitBuilder",
-            "printedName": "GuideKitBuilder",
-            "usr": "s:18ZendeskSDKGuideKit05GuideC7BuilderP",
-            "mangledName": "$s18ZendeskSDKGuideKit05GuideC7BuilderP"
-          },
           {
             "kind": "Conformance",
             "name": "Copyable",
@@ -919,52 +769,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
+            "name": "GuideKitBuilder",
+            "printedName": "GuideKitBuilder",
+            "usr": "s:18ZendeskSDKGuideKit05GuideC7BuilderP",
+            "mangledName": "$s18ZendeskSDKGuideKit05GuideC7BuilderP"
           }
         ]
       },
@@ -1070,14 +878,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(py)id",
+            "usr": "s:18ZendeskSDKGuideKit12GuideArticleC2ids6UInt64Vvp",
             "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC2ids6UInt64Vvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1096,13 +903,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)id",
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC2ids6UInt64Vvg",
                 "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC2ids6UInt64Vvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1129,14 +935,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(py)locale",
+            "usr": "s:18ZendeskSDKGuideKit12GuideArticleC6localeSSSgvp",
             "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC6localeSSSgvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1163,13 +968,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)locale",
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC6localeSSSgvg",
                 "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC6localeSSSgvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1188,14 +992,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(py)url",
+            "usr": "s:18ZendeskSDKGuideKit12GuideArticleC3urlSSvp",
             "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC3urlSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1214,13 +1017,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)url",
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC3urlSSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC3urlSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1247,14 +1049,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(py)title",
+            "usr": "s:18ZendeskSDKGuideKit12GuideArticleC5titleSSSgvp",
             "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC5titleSSSgvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1281,13 +1082,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)title",
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC5titleSSSgvg",
                 "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC5titleSSSgvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1306,14 +1106,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(py)body",
+            "usr": "s:18ZendeskSDKGuideKit12GuideArticleC4bodySSvp",
             "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC4bodySSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1332,13 +1131,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)body",
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC4bodySSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC4bodySSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1358,21 +1156,20 @@
                     "kind": "TypeNominal",
                     "name": "GuideArticleAttachment",
                     "printedName": "ZendeskSDKGuideKit.GuideArticleAttachment",
-                    "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment"
+                    "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(py)attachments",
+            "usr": "s:18ZendeskSDKGuideKit12GuideArticleC11attachmentsSayAA0dE10AttachmentCGvp",
             "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC11attachmentsSayAA0dE10AttachmentCGvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1392,20 +1189,19 @@
                         "kind": "TypeNominal",
                         "name": "GuideArticleAttachment",
                         "printedName": "ZendeskSDKGuideKit.GuideArticleAttachment",
-                        "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment"
+                        "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)attachments",
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC11attachmentsSayAA0dE10AttachmentCGvg",
                 "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC11attachmentsSayAA0dE10AttachmentCGvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1420,7 +1216,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideArticle",
                 "printedName": "ZendeskSDKGuideKit.GuideArticle",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle"
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC"
               },
               {
                 "kind": "TypeNominal",
@@ -1477,27 +1273,25 @@
                     "kind": "TypeNominal",
                     "name": "GuideArticleAttachment",
                     "printedName": "ZendeskSDKGuideKit.GuideArticleAttachment",
-                    "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment"
+                    "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC"
                   }
                 ],
                 "usr": "s:Sa"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)initWithId:locale:url:title:body:attachments:",
+            "usr": "s:18ZendeskSDKGuideKit12GuideArticleC2id6locale3url5title4body11attachmentsACs6UInt64V_SSSgSSALSSSayAA0dE10AttachmentCGtcfc",
             "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC2id6locale3url5title4body11attachmentsACs6UInt64V_SSSgSSALSSSayAA0dE10AttachmentCGtcfc",
             "moduleName": "ZendeskSDKGuideKit",
-            "objc_name": "initWithId:locale:url:title:body:attachments:",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
           {
             "kind": "Function",
-            "name": "isEqual",
-            "printedName": "isEqual(_:)",
+            "name": "==",
+            "printedName": "==(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1507,73 +1301,36 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)isEqual:",
-            "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC7isEqualySbypSgF",
-            "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "objc_name": "isEqual:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
+                "name": "GuideArticle",
+                "printedName": "ZendeskSDKGuideKit.GuideArticle",
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "GuideArticle",
                 "printedName": "ZendeskSDKGuideKit.GuideArticle",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle"
+                "usr": "s:18ZendeskSDKGuideKit12GuideArticleC"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle(im)init",
-            "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleCACycfc",
+            "declKind": "Func",
+            "usr": "s:18ZendeskSDKGuideKit12GuideArticleC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC2eeoiySbAC_ACtFZ",
             "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
+            "static": true,
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
+              "Final",
+              "AccessControl"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticle",
+        "usr": "s:18ZendeskSDKGuideKit12GuideArticleC",
         "mangledName": "$s18ZendeskSDKGuideKit12GuideArticleC",
         "moduleName": "ZendeskSDKGuideKit",
-        "objc_name": "ZDKGuideArticle",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -1596,48 +1353,6 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -1706,14 +1421,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(py)url",
+            "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC3urlSSvp",
             "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC3urlSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1732,13 +1446,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(im)url",
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC3urlSSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC3urlSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1757,14 +1470,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(py)articleId",
+            "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC9articleIdSSvp",
             "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC9articleIdSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1783,13 +1495,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(im)articleId",
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC9articleIdSSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC9articleIdSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1804,18 +1515,17 @@
                 "kind": "TypeNominal",
                 "name": "GuideLocale",
                 "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "usr": "s:18ZendeskSDKGuideKit11GuideLocaleC"
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(py)locale",
+            "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC6localeAA0D6LocaleCvp",
             "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC6localeAA0D6LocaleCvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -1830,17 +1540,16 @@
                     "kind": "TypeNominal",
                     "name": "GuideLocale",
                     "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                    "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                    "usr": "s:18ZendeskSDKGuideKit11GuideLocaleC"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(im)locale",
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC6localeAA0D6LocaleCvg",
                 "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC6localeAA0D6LocaleCvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -1848,8 +1557,8 @@
           },
           {
             "kind": "Function",
-            "name": "isEqual",
-            "printedName": "isEqual(_:)",
+            "name": "==",
+            "printedName": "==(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1859,74 +1568,38 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(im)isEqual:",
-            "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC7isEqualySbypSgF",
-            "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "objc_name": "isEqual:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
+                "name": "GuideArticleUrl",
+                "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "GuideArticleUrl",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleUrl",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl"
+                "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl(im)init",
-            "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlCACycfc",
+            "declKind": "Func",
+            "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC2eeoiySbAC_ACtFZ",
             "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
+            "static": true,
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
+              "Final",
+              "AccessControl"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleUrl",
+        "usr": "s:18ZendeskSDKGuideKit15GuideArticleUrlC",
         "mangledName": "$s18ZendeskSDKGuideKit15GuideArticleUrlC",
         "moduleName": "ZendeskSDKGuideKit",
-        "objc_name": "ZDKGuideArticleUrl",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ],
-        "superclassUsr": "c:objc(cs)NSObject",
         "hasMissingDesignatedInitializers": true,
-        "superclassNames": [
-          "ObjectiveC.NSObject"
-        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -1948,48 +1621,6 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -2052,7 +1683,7 @@
                     "kind": "TypeNominal",
                     "name": "GuideArticleVote",
                     "printedName": "ZendeskSDKGuideKit.GuideArticleVote",
-                    "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote"
+                    "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -2063,7 +1694,7 @@
                         "kind": "TypeNominal",
                         "name": "GuideArticleVote",
                         "printedName": "ZendeskSDKGuideKit.GuideArticleVote",
-                        "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote"
+                        "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO"
                       }
                     ]
                   }
@@ -2071,13 +1702,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote@ZDKGuideArticleVoteUpVoted",
+            "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO7upVotedyA2CmF",
             "mangledName": "$s18ZendeskSDKGuideKit16GuideArticleVoteO7upVotedyA2CmF",
-            "moduleName": "ZendeskSDKGuideKit",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 0
+            "moduleName": "ZendeskSDKGuideKit"
           },
           {
             "kind": "Var",
@@ -2093,7 +1720,7 @@
                     "kind": "TypeNominal",
                     "name": "GuideArticleVote",
                     "printedName": "ZendeskSDKGuideKit.GuideArticleVote",
-                    "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote"
+                    "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -2104,7 +1731,7 @@
                         "kind": "TypeNominal",
                         "name": "GuideArticleVote",
                         "printedName": "ZendeskSDKGuideKit.GuideArticleVote",
-                        "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote"
+                        "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO"
                       }
                     ]
                   }
@@ -2112,13 +1739,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote@ZDKGuideArticleVoteDownVoted",
+            "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO9downVotedyA2CmF",
             "mangledName": "$s18ZendeskSDKGuideKit16GuideArticleVoteO9downVotedyA2CmF",
-            "moduleName": "ZendeskSDKGuideKit",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 1
+            "moduleName": "ZendeskSDKGuideKit"
           },
           {
             "kind": "Var",
@@ -2134,7 +1757,7 @@
                     "kind": "TypeNominal",
                     "name": "GuideArticleVote",
                     "printedName": "ZendeskSDKGuideKit.GuideArticleVote",
-                    "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote"
+                    "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -2145,7 +1768,7 @@
                         "kind": "TypeNominal",
                         "name": "GuideArticleVote",
                         "printedName": "ZendeskSDKGuideKit.GuideArticleVote",
-                        "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote"
+                        "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO"
                       }
                     ]
                   }
@@ -2153,13 +1776,9 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote@ZDKGuideArticleVoteNotVoted",
+            "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO8notVotedyA2CmF",
             "mangledName": "$s18ZendeskSDKGuideKit16GuideArticleVoteO8notVotedyA2CmF",
-            "moduleName": "ZendeskSDKGuideKit",
-            "declAttributes": [
-              "ObjC"
-            ],
-            "fixedbinaryorder": 2
+            "moduleName": "ZendeskSDKGuideKit"
           },
           {
             "kind": "Constructor",
@@ -2175,7 +1794,7 @@
                     "kind": "TypeNominal",
                     "name": "GuideArticleVote",
                     "printedName": "ZendeskSDKGuideKit.GuideArticleVote",
-                    "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote"
+                    "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO"
                   }
                 ],
                 "usr": "s:Sq"
@@ -2235,13 +1854,11 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "c:@M@ZendeskSDKGuideKit@E@ZDKGuideArticleVote",
+        "usr": "s:18ZendeskSDKGuideKit16GuideArticleVoteO",
         "mangledName": "$s18ZendeskSDKGuideKit16GuideArticleVoteO",
         "moduleName": "ZendeskSDKGuideKit",
-        "objc_name": "ZDKGuideArticleVote",
         "declAttributes": [
-          "AccessControl",
-          "ObjC"
+          "AccessControl"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -2335,7 +1952,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideLocale",
                 "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "usr": "s:18ZendeskSDKGuideKit11GuideLocaleC"
               },
               {
                 "kind": "TypeNominal",
@@ -2345,20 +1962,18 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale(im)initWithLocale:",
+            "usr": "s:18ZendeskSDKGuideKit11GuideLocaleC6localeACSS_tcfc",
             "mangledName": "$s18ZendeskSDKGuideKit11GuideLocaleC6localeACSS_tcfc",
             "moduleName": "ZendeskSDKGuideKit",
-            "objc_name": "initWithLocale:",
             "declAttributes": [
-              "AccessControl",
-              "ObjC"
+              "AccessControl"
             ],
             "init_kind": "Designated"
           },
           {
             "kind": "Function",
-            "name": "isEqual",
-            "printedName": "isEqual(_:)",
+            "name": "==",
+            "printedName": "==(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2368,72 +1983,36 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale(im)isEqual:",
-            "mangledName": "$s18ZendeskSDKGuideKit11GuideLocaleC7isEqualySbypSgF",
-            "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "objc_name": "isEqual:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl",
-              "Override"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
+                "name": "GuideLocale",
+                "printedName": "ZendeskSDKGuideKit.GuideLocale",
+                "usr": "s:18ZendeskSDKGuideKit11GuideLocaleC"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "GuideLocale",
                 "printedName": "ZendeskSDKGuideKit.GuideLocale",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale"
+                "usr": "s:18ZendeskSDKGuideKit11GuideLocaleC"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale(im)init",
-            "mangledName": "$s18ZendeskSDKGuideKit11GuideLocaleCACycfc",
+            "declKind": "Func",
+            "usr": "s:18ZendeskSDKGuideKit11GuideLocaleC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18ZendeskSDKGuideKit11GuideLocaleC2eeoiySbAC_ACtFZ",
             "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
+            "static": true,
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
+              "Final",
+              "AccessControl"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideLocale",
+        "usr": "s:18ZendeskSDKGuideKit11GuideLocaleC",
         "mangledName": "$s18ZendeskSDKGuideKit11GuideLocaleC",
         "moduleName": "ZendeskSDKGuideKit",
-        "objc_name": "ZDKGuideLocale",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -2456,48 +2035,6 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -2529,14 +2066,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(py)id",
+            "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC2ids6UInt64Vvp",
             "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC2ids6UInt64Vvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -2555,13 +2091,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(im)id",
+                "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC2ids6UInt64Vvg",
                 "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC2ids6UInt64Vvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -2580,14 +2115,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(py)title",
+            "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC5titleSSvp",
             "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC5titleSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -2606,13 +2140,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(im)title",
+                "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC5titleSSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC5titleSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -2631,14 +2164,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(py)type",
+            "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC4typeSSvp",
             "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC4typeSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -2657,13 +2189,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(im)type",
+                "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC4typeSSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC4typeSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -2747,14 +2278,13 @@
               }
             ],
             "declKind": "Var",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(py)url",
+            "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC3urlSSvp",
             "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC3urlSSvp",
             "moduleName": "ZendeskSDKGuideKit",
             "declAttributes": [
               "Final",
               "HasStorage",
               "AccessControl",
-              "ObjC",
               "RawDocComment"
             ],
             "isLet": true,
@@ -2773,13 +2303,12 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(im)url",
+                "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC3urlSSvg",
                 "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC3urlSSvg",
                 "moduleName": "ZendeskSDKGuideKit",
                 "implicit": true,
                 "declAttributes": [
-                  "Final",
-                  "ObjC"
+                  "Final"
                 ],
                 "accessorKind": "get"
               }
@@ -2794,7 +2323,7 @@
                 "kind": "TypeNominal",
                 "name": "GuideArticleAttachment",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleAttachment",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment"
+                "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC"
               },
               {
                 "kind": "TypeNominal",
@@ -2846,8 +2375,8 @@
           },
           {
             "kind": "Function",
-            "name": "isEqual",
-            "printedName": "isEqual(_:)",
+            "name": "==",
+            "printedName": "==(_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2857,73 +2386,36 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(im)isEqual:",
-            "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC7isEqualySbypSgF",
-            "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "objc_name": "isEqual:",
-            "declAttributes": [
-              "Final",
-              "ObjC",
-              "AccessControl",
-              "Override",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
+                "name": "GuideArticleAttachment",
+                "printedName": "ZendeskSDKGuideKit.GuideArticleAttachment",
+                "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC"
+              },
               {
                 "kind": "TypeNominal",
                 "name": "GuideArticleAttachment",
                 "printedName": "ZendeskSDKGuideKit.GuideArticleAttachment",
-                "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment"
+                "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC"
               }
             ],
-            "declKind": "Constructor",
-            "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment(im)init",
-            "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentCACycfc",
+            "declKind": "Func",
+            "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC2eeoiySbAC_ACtFZ",
             "moduleName": "ZendeskSDKGuideKit",
-            "overriding": true,
-            "implicit": true,
-            "objc_name": "init",
+            "static": true,
             "declAttributes": [
-              "Dynamic",
-              "ObjC",
-              "Override"
+              "Final",
+              "AccessControl"
             ],
-            "init_kind": "Designated"
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
-        "usr": "c:@M@ZendeskSDKGuideKit@objc(cs)ZDKGuideArticleAttachment",
+        "usr": "s:18ZendeskSDKGuideKit22GuideArticleAttachmentC",
         "mangledName": "$s18ZendeskSDKGuideKit22GuideArticleAttachmentC",
         "moduleName": "ZendeskSDKGuideKit",
-        "objc_name": "ZDKGuideArticleAttachment",
         "declAttributes": [
           "Final",
-          "AccessControl",
-          "ObjC"
-        ],
-        "superclassUsr": "c:objc(cs)NSObject",
-        "superclassNames": [
-          "ObjectiveC.NSObject"
+          "AccessControl"
         ],
         "conformances": [
           {
@@ -2946,48 +2438,6 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObservingPublishing",
-            "printedName": "_KeyValueCodingAndObservingPublishing",
-            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
-            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_KeyValueCodingAndObserving",
-            "printedName": "_KeyValueCodingAndObserving",
-            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
-            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -3584,14 +3034,14 @@
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticleVote.swift",
       "kind": "IntegerLiteral",
-      "offset": 699,
+      "offset": 672,
       "length": 9,
       "value": "1"
     },
     {
       "filePath": "\/Users\/admin\/actions-runner\/_work\/native_messaging_sdk_ios\/native_messaging_sdk_ios\/GuideKit\/GuideKit\/Source\/Public\/Models\/Article\/GuideArticleVote.swift",
       "kind": "IntegerLiteral",
-      "offset": 718,
+      "offset": 691,
       "length": 8,
       "value": "2"
     },

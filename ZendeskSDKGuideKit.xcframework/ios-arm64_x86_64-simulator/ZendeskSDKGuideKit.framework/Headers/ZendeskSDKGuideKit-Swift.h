@@ -280,8 +280,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
-@import ObjectiveC;
 #endif
 
 #endif
@@ -303,110 +301,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_CLASS_NAMED("DefaultGuideKitBuilder")
-@interface ZDKDefaultGuideKitBuilder : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-@class NSString;
-@class ZDKGuideArticleAttachment;
-
-SWIFT_CLASS_NAMED("GuideArticle")
-@interface ZDKGuideArticle : NSObject
-/// Unique identifier of the article.
-@property (nonatomic, readonly) uint64_t id;
-/// The locale of the article
-@property (nonatomic, readonly, copy) NSString * _Nullable locale;
-/// URL of the article in HTML format.
-@property (nonatomic, readonly, copy) NSString * _Nonnull url;
-/// Title of the article.
-@property (nonatomic, readonly, copy) NSString * _Nullable title;
-/// HTML content of the article.
-@property (nonatomic, readonly, copy) NSString * _Nonnull body;
-/// List of attachments associated with the article.
-@property (nonatomic, readonly, copy) NSArray<ZDKGuideArticleAttachment *> * _Nonnull attachments;
-- (nonnull instancetype)initWithId:(uint64_t)id locale:(NSString * _Nullable)locale url:(NSString * _Nonnull)url title:(NSString * _Nullable)title body:(NSString * _Nonnull)body attachments:(NSArray<ZDKGuideArticleAttachment *> * _Nonnull)attachments OBJC_DESIGNATED_INITIALIZER;
-/// Returns a Boolean value that indicates whether the receiver and a given object are equal.
-/// \param object the object to compare against
-///
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("GuideArticleAttachment")
-@interface ZDKGuideArticleAttachment : NSObject
-/// Unique identifier of the attachment.
-@property (nonatomic, readonly) uint64_t id;
-/// Name of the attachment file.
-@property (nonatomic, readonly, copy) NSString * _Nonnull title;
-@property (nonatomic, readonly, copy) NSString * _Nonnull type;
-/// URL of the attachment content.
-@property (nonatomic, readonly, copy) NSString * _Nonnull url;
-/// Returns a Boolean value that indicates whether the receiver and a given object are equal.
-/// \param object the object to compare against
-///
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class ZDKGuideLocale;
-
-SWIFT_CLASS_NAMED("GuideArticleUrl")
-@interface ZDKGuideArticleUrl : NSObject
-/// The full URL of the guide article.
-@property (nonatomic, readonly, copy) NSString * _Nonnull url;
-/// The identifier of the guide article.
-@property (nonatomic, readonly, copy) NSString * _Nonnull articleId;
-/// The locale of the guide page.
-@property (nonatomic, readonly, strong) ZDKGuideLocale * _Nonnull locale;
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-typedef SWIFT_ENUM_NAMED(NSInteger, ZDKGuideArticleVote, "GuideArticleVote", open) {
-  ZDKGuideArticleVoteUpVoted = 0,
-  ZDKGuideArticleVoteDownVoted = 1,
-  ZDKGuideArticleVoteNotVoted = 2,
-};
-
-
-SWIFT_CLASS_NAMED("GuideKitSettings")
-@interface ZDKGuideKitSettings : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull baseURL;
-@property (nonatomic, readonly, copy) NSString * _Nonnull channelId;
-- (nonnull instancetype)initWithBaseURL:(NSString * _Nonnull)baseURL channelId:(NSString * _Nonnull)channelId OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_PROTOCOL("_TtP18ZendeskSDKGuideKit14GuideKitShared_")
-@protocol GuideKitShared
-/// Checks if the provided URL string is a valid guide URL.
-/// \param url The URL string to validate.
-///
-///
-/// returns:
-/// <code>true</code> if the URL string is a valid guide URL, <code>false</code> otherwise.
-- (BOOL)isValidGuideUrlWithUrl:(NSString * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_CLASS_NAMED("GuideLocale")
-@interface ZDKGuideLocale : NSObject
-- (nonnull instancetype)initWithLocale:(NSString * _Nonnull)locale OBJC_DESIGNATED_INITIALIZER;
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
@@ -697,8 +591,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
-@import Foundation;
-@import ObjectiveC;
 #endif
 
 #endif
@@ -720,110 +612,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-
-SWIFT_CLASS_NAMED("DefaultGuideKitBuilder")
-@interface ZDKDefaultGuideKitBuilder : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-
-@class NSString;
-@class ZDKGuideArticleAttachment;
-
-SWIFT_CLASS_NAMED("GuideArticle")
-@interface ZDKGuideArticle : NSObject
-/// Unique identifier of the article.
-@property (nonatomic, readonly) uint64_t id;
-/// The locale of the article
-@property (nonatomic, readonly, copy) NSString * _Nullable locale;
-/// URL of the article in HTML format.
-@property (nonatomic, readonly, copy) NSString * _Nonnull url;
-/// Title of the article.
-@property (nonatomic, readonly, copy) NSString * _Nullable title;
-/// HTML content of the article.
-@property (nonatomic, readonly, copy) NSString * _Nonnull body;
-/// List of attachments associated with the article.
-@property (nonatomic, readonly, copy) NSArray<ZDKGuideArticleAttachment *> * _Nonnull attachments;
-- (nonnull instancetype)initWithId:(uint64_t)id locale:(NSString * _Nullable)locale url:(NSString * _Nonnull)url title:(NSString * _Nullable)title body:(NSString * _Nonnull)body attachments:(NSArray<ZDKGuideArticleAttachment *> * _Nonnull)attachments OBJC_DESIGNATED_INITIALIZER;
-/// Returns a Boolean value that indicates whether the receiver and a given object are equal.
-/// \param object the object to compare against
-///
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_CLASS_NAMED("GuideArticleAttachment")
-@interface ZDKGuideArticleAttachment : NSObject
-/// Unique identifier of the attachment.
-@property (nonatomic, readonly) uint64_t id;
-/// Name of the attachment file.
-@property (nonatomic, readonly, copy) NSString * _Nonnull title;
-@property (nonatomic, readonly, copy) NSString * _Nonnull type;
-/// URL of the attachment content.
-@property (nonatomic, readonly, copy) NSString * _Nonnull url;
-/// Returns a Boolean value that indicates whether the receiver and a given object are equal.
-/// \param object the object to compare against
-///
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-@class ZDKGuideLocale;
-
-SWIFT_CLASS_NAMED("GuideArticleUrl")
-@interface ZDKGuideArticleUrl : NSObject
-/// The full URL of the guide article.
-@property (nonatomic, readonly, copy) NSString * _Nonnull url;
-/// The identifier of the guide article.
-@property (nonatomic, readonly, copy) NSString * _Nonnull articleId;
-/// The locale of the guide page.
-@property (nonatomic, readonly, strong) ZDKGuideLocale * _Nonnull locale;
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-typedef SWIFT_ENUM_NAMED(NSInteger, ZDKGuideArticleVote, "GuideArticleVote", open) {
-  ZDKGuideArticleVoteUpVoted = 0,
-  ZDKGuideArticleVoteDownVoted = 1,
-  ZDKGuideArticleVoteNotVoted = 2,
-};
-
-
-SWIFT_CLASS_NAMED("GuideKitSettings")
-@interface ZDKGuideKitSettings : NSObject
-@property (nonatomic, readonly, copy) NSString * _Nonnull baseURL;
-@property (nonatomic, readonly, copy) NSString * _Nonnull channelId;
-- (nonnull instancetype)initWithBaseURL:(NSString * _Nonnull)baseURL channelId:(NSString * _Nonnull)channelId OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
-
-SWIFT_PROTOCOL("_TtP18ZendeskSDKGuideKit14GuideKitShared_")
-@protocol GuideKitShared
-/// Checks if the provided URL string is a valid guide URL.
-/// \param url The URL string to validate.
-///
-///
-/// returns:
-/// <code>true</code> if the URL string is a valid guide URL, <code>false</code> otherwise.
-- (BOOL)isValidGuideUrlWithUrl:(NSString * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
-SWIFT_CLASS_NAMED("GuideLocale")
-@interface ZDKGuideLocale : NSObject
-- (nonnull instancetype)initWithLocale:(NSString * _Nonnull)locale OBJC_DESIGNATED_INITIALIZER;
-- (BOOL)isEqual:(id _Nullable)object SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init SWIFT_UNAVAILABLE;
-+ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
-@end
-
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
