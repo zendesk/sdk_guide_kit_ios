@@ -376,9 +376,7 @@
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
             "protocolReq": true,
-            "intro_iOS": "13.0.0",
             "declAttributes": [
-              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -454,9 +452,7 @@
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
             "protocolReq": true,
-            "intro_iOS": "13.0.0",
             "declAttributes": [
-              "Available",
               "RawDocComment"
             ],
             "throwing": true,
@@ -487,10 +483,6 @@
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
-            "intro_iOS": "13.0.0",
-            "declAttributes": [
-              "Available"
-            ],
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
@@ -518,10 +510,6 @@
             "moduleName": "ZendeskSDKGuideKit",
             "genericSig": "<τ_0_0 where τ_0_0 : ZendeskSDKGuideKit.GuideKit>",
             "sugared_genericSig": "<Self where Self : ZendeskSDKGuideKit.GuideKit>",
-            "intro_iOS": "13.0.0",
-            "declAttributes": [
-              "Available"
-            ],
             "isFromExtension": true,
             "throwing": true,
             "funcSelfKind": "NonMutating"
